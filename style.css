@@ -78,3 +78,9 @@ a img{
     align-items: center;
 
 }
+.flex-container-3{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
