@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+body {
+    font-family: 'Bonheur Royale', cursive;
+    font-size:25px;
+    background-color: green;
+}
+.grid-container{
+    display:grid;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "sd sd sd mn mn mn mn mn"
+    "ft ft ft ft ft ft ft ft";
+    grid-template-columns:repeat(8,1fr);
+    grid-template-rows: repeat(3,auto);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+header{
+    grid-area: hd;
+}
+sidebar{
+    grid-area:sd;
+}
+footer{
+    grid-area: ft;
+    text-align:center;
+}
+section{
+    grid-area: mn;
+}
+.sidebar-img{
+    height: 565px;
+    width: 556px;
+    border: 2px solid red;
+}
+.header-link{
+    color:#ff0000;
+    padding-right: 10px;
+}
+.flex-container-1{
+    display:flex;
+    justify-content:flex-start;
+}
+.header-span{
+    padding-left:10px;
+}
+hr{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+.author-link{
+    color:blue;
+}
+.flex-container-3{
+    display:flex;
+    align-items: center;
+
+}
+.flex-container-3 span{
+    padding-left:10px;
+}
+section{
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    border: 2px solid black;
+}
+a img{
+    width:50px;
+    height:50px;
+}
